@@ -1,0 +1,205 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #212121;
+    color: #fff;
+    padding: auto;
+    position: flex;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+}
+
+header 
+.container nav 
+.logo 
+
+.logo {
+    width: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 8px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+    background-color: #212121;
+    border-radius: 55px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #000000;
+    background-color: #9d4edd;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar button{
+    background: none;
+    border: none;
+    outline: none;
+    transition: transform 0.2s;
+    justify-content: flex-end;
+}
+
+.search-button:hover{
+    transform: scale(1.05);
+}
+
+.search-button img {
+    width: 40PX;
+    transition: transform 0.2s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+main {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.container {
+    display: flex;
+}
+
+
+.sidebar {
+    width: 10rem;
+    height: 20rem;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+    transition: transform 0.2s;
+    justify-content: center;
+}
+
+.sidebar ul li a:hover {
+    transform: scale(1.03);
+}
+
+/* Estilos do catálogo */
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    width: 75%;
+}
+
+.produto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.produto:hover {
+    transform: scale(1.05);
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+}
+
+.produto h2 {
+    margin: 0;
+    padding: 10px 0;
+    color: #212121;
+}
+
+.produto p {
+    padding: 0 20px 20px;
+    margin: 0;
+}
+
+footer {
+    background-color: #212121;
+    padding: 1rem 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.social img{
+    width: 55px;
+    padding: 10px;
+    border-radius: 60px;
+    transition: transform 0.2s;
+}
+
+.social img:hover{
+    transform: scale(1.03);
+}
+
+footer .container {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
