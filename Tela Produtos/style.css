@@ -187,6 +187,12 @@ footer {
     padding: 10px;
 }
 
+a{
+    text-decoration: none;
+    text-shadow: #000000;
+    text-decoration-line: none;
+}
+
 .social img{
     width: 55px;
     padding: 10px;
